@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sagar Bhusal</title>
+<meta name="description" content="Sagar Bhusal — Computer Science student in Kathmandu, building backend services and learning cloud infrastructure.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#top" class="wordmark">Sagar Bhusal</a>
+  <nav class="toplinks" aria-label="Section navigation">
+    <a href="#about">about</a>
+    <a href="#work">work</a>
+    <a href="#experience">experience</a>
+    <a href="#contact">contact</a>
+    <button id="themeToggle" class="theme-link" aria-label="Toggle light and dark theme">dark</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="hero-line">
+      Hi, I'm <span class="highlight">Sagar</span>.
+    </h1>
+    <p class="hero-text">
+      I'm a Computer Science student at Deerwalk Institute of Technology in Kathmandu. Most of what I build lives on the backend, the kind of work nobody notices
+      until it breaks. Lately that's meant a lot of Go, Docker, and Git, and I'm trying to push
+      further into cloud infrastructure next.
+    </p>
+    <p class="hero-links">
+      <a href="#work">See what I've built</a> &nbsp;·&nbsp; <a href="mailto:bhusalsagar449@gmail.com">say hello</a>
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>
+      Right now I'm leading <strong>PrintOut</strong>, an on-demand printing platform I started
+      from scratch, and teaching programming basics with the Deerwalk Developers Community on the
+      side. I'm looking for a CloudOps or backend-leaning internship where I can learn how the
+      infrastructure side of things actually works in production, not just on my laptop.
+    </p>
+    <p class="skills-text">
+      <strong>Version control &amp; containers</strong> — Git, GitHub, Docker.<br>
+      <strong>Backend &amp; infrastructure</strong> — FastAPI, SQLAlchemy, Go, Python.<br>
+      <strong>Databases</strong> — MySQL, SQLite.<br>
+      <strong>Languages &amp; frameworks</strong> — JavaScript, TypeScript, PHP, React.js, Scikit-learn.
+    </p>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <h2>Work</h2>
+
+    <div class="work-filters" role="group" aria-label="Filter projects">
+      <button class="filter is-active" data-filter="all">all</button>
+      <button class="filter" data-filter="Go">Go</button>
+      <button class="filter" data-filter="React">React</button>
+      <button class="filter" data-filter="Python">Python</button>
+      <button class="filter" data-filter="PHP">PHP</button>
+    </div>
+
+    <ul class="work-list">
+
+      <li class="work-item" data-tech="Go React Docker">
+        <div class="work-head">
+          <h3>PrintOut</h3>
+          <span class="work-meta">Product lead · Jan 2026 – present</span>
+        </div>
+        <p>An on-demand printing and document-services platform I built from the ground up —
+          backend in Go handling orders and files, frontend in React, containerized with Docker.</p>
+        <p class="work-tech">Go, React.js, Docker, Git</p>
+        <p class="work-links"><a href="https://www.printoutnp.com" target="_blank" rel="noopener">Live — printoutnp.com</a></p>
+      </li>
+
+      <li class="work-item" data-tech="React Python">
+        <div class="work-head">
+          <h3>Full-Stack Bookstore</h3>
+          <span class="work-meta">Personal project</span>
+        </div>
+        <p>A bookstore app with a React and TypeScript frontend and a FastAPI backend — database
+          schema in SQLAlchemy over SQLite, with JWT authentication and bcrypt password hashing.</p>
+        <p class="work-tech">React 19, TypeScript, FastAPI, SQLAlchemy</p>
+        
+      </li>
+
+      <li class="work-item" data-tech="Python">
+        <div class="work-head">
+          <h3>SpeakerSense</h3>
+          <span class="work-meta">Personal project</span>
+        </div>
+        <p>A speaker identification system — extracts MFCC features from voice samples and
+          classifies speakers with an SVM, evaluated on identification accuracy.</p>
+        <p class="work-tech">Python, LibROSA, Scikit-learn</p>
+        
+      </li>
+
+      <li class="work-item" data-tech="PHP">
+        <div class="work-head">
+          <h3>ResumeCraft</h3>
+          <span class="work-meta">Personal project</span>
+        </div>
+        <p>A step-by-step resume builder with PDF export, backed by MySQL with full CRUD for
+          managing resume data.</p>
+        <p class="work-tech">JavaScript, PHP, MySQL, jsPDF</p>
+    
+      </li>
+
+      <li class="work-item" data-tech="Python">
+        <div class="work-head">
+          <h3>Advent of Code Platform</h3>
+          <span class="work-meta">Deerwalk Developers Community · Dec 2024</span>
+        </div>
+        <p>A small system to track and show off daily Advent of Code solutions, built with a
+          few other community members as a shared coding habit-tracker.</p>
+        <p class="work-tech">Python</p>
+      
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <h2>Experience &amp; education</h2>
+    <ul class="plain-list">
+      <li>
+        <div class="plain-head"><h3>Creative Designer</h3><span>Apr 2025 – Jan 2026</span></div>
+        <p>Deerwalk Group · Internship, Nepal (on-site)</p>
+      </li>
+      <li>
+        <div class="plain-head"><h3>Marketing Intern</h3><span>Dec 2024 – Apr 2025</span></div>
+        <p>Deerwalk Sifal School · Internship</p>
+      </li>
+      <li>
+        <div class="plain-head"><h3>BSc Computer Science &amp; IT</h3><span>2023 – present</span></div>
+        <p>Deerwalk Institute of Technology</p>
+      </li>
+      <li>
+        <div class="plain-head"><h3>Goldengate International College</h3><span>2021 – 2022</span></div>
+        <p>+2 in Computer Science</p>
+      </li>
+    </ul>
+
+    <h2 class="leadership-heading">Leadership &amp; community</h2>
+    <ul class="plain-list plain-list-compact">
+      <li><strong>Member, Deerwalk Developers Community</strong> — taught programming fundamentals to fellow students, Aug 2025 – Jan 2026.</li>
+      <li><strong>Member, Deerwalk Data Society</strong> — Jun 2024 – Aug 2025.</li>
+      <li><strong>Program Coordinator, TEDx DWIT</strong> — coordinated logistics and a team of volunteers.</li>
+      <li><strong>Volunteer, DeerHack Hackathon</strong> — handled technical setup and registration for 100+ participants.</li>
+      <li><strong>Volunteer Coordinator, Model United Nations</strong> — managed volunteer scheduling and communication.</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <h2>Get in touch</h2>
+    <p>Open to CloudOps and backend development internships. Email is the fastest way to reach me.</p>
+    <p class="contact-email"><a href="mailto:bhusalsagar449@gmail.com">bhusalsagar449@gmail.com</a></p>
+    <p class="contact-social">
+      <a href="https://github.com/Sagarbhusal-143" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/sagar-bhusal-a99ab72a0/" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer class="footer">
+    <p>Sagar Bhusal — Kritipur, Kathmandu</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
